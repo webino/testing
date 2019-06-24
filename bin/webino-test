@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+root=$(dirname $0)
+target=${1-'*'}
+
+[[ -f vendor/bin/tester ]] && tester=vendor/bin/tester || tester=${root}/tester
+
+${tester} tests/${target}.phpt -p php \
+                     -c tests/php.ini \
+                     -d auto_prepend_file=$PWD/tests/bootstrap.php \
+                     -l tests/log/test.log \
+                     --coverage tests/log/clover.xml \
+                     --coverage-src src
