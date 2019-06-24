@@ -2,6 +2,8 @@
 /**
  * Webino™ (http://webino.sk)
  *
+ * @interpreter php
+ *
  * @link        https://github.com/webino/testing
  * @copyright   Copyright (c) 2019 Webino, s.r.o. (http://webino.sk)
  * @author      Peter Bačinský <peter@bacinsky.sk>
@@ -9,9 +11,8 @@
  */
 
 use Tester\Assert;
-use Tester\Environment;
 
 Tester\Environment::setup();
 
 
-Assert::true(true);
+Assert::same('cli', php_sapi_name());
