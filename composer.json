@@ -11,7 +11,7 @@
   ],
   "require": {
     "php": "~7.1",
-    "webino/nette-tester": "dev-webino as dev-master"
+    "webino/nette-tester": "2.3.0@dev"
   },
   "require-dev": {
     "tracy/tracy": "2.*",

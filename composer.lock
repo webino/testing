@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "181ba7d23560590fd9db13961677c542",
+    "content-hash": "2fc2ac204222e3e1578a9f45e6f3402f",
     "packages": [
         {
             "name": "webino/nette-tester",
-            "version": "dev-webino",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webino/nette-tester.git",
@@ -1425,14 +1425,7 @@
             "time": "2019-06-18T12:20:11+00:00"
         }
     ],
-    "aliases": [
-        {
-            "alias": "dev-master",
-            "alias_normalized": "9999999-dev",
-            "version": "dev-webino",
-            "package": "webino/nette-tester"
-        }
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "webino/nette-tester": 20
