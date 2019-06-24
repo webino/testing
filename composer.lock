@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fc2ac204222e3e1578a9f45e6f3402f",
+    "content-hash": "fd8ba3a202d5caeb893c87fbc3cdb8db",
     "packages": [
         {
             "name": "webino/nette-tester",
@@ -1427,9 +1427,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "webino/nette-tester": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
